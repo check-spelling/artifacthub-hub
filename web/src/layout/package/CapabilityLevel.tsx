@@ -5,7 +5,7 @@ import { FaCheck } from 'react-icons/fa';
 import { OPERATOR_CAPABILITIES } from '../../utils/data';
 import SmallTitle from '../common/SmallTitle';
 import styles from './CapabilityLevel.module.css';
-import CapatabilityLevelInfoModal from './CapatabilityLevelInfoModal';
+import CompatibilityLevelInfoModal from './CompatibilityLevelInfoModal';
 
 interface Props {
   capabilityLevel?: string | null;
@@ -21,7 +21,7 @@ const CapabilityLevel = (props: Props) => {
     <div>
       <div className="d-inline">
         <SmallTitle text="Capability Level" wrapperClassName="d-inline" />
-        <CapatabilityLevelInfoModal />
+        <CompatibilityLevelInfoModal />
       </div>
 
       <div className="mb-3 position-relative">
